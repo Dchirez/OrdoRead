@@ -295,7 +295,7 @@ L'application est **100% offline** après téléchargement du modèle :
 ## Device de test
 
 - **Samsung Galaxy A34** (SM-A346B), 6 Go RAM
-- ADB : `C:\Users\dchir\AppData\Local\Android\Sdk\platform-tools\adb.exe`
+- ADB : `<ANDROID_SDK>/platform-tools/adb.exe`
 - **Important sur Git Bash Windows** : utiliser `MSYS_NO_PATHCONV=1` devant les commandes `adb` pour éviter que Git Bash convertisse les chemins Android (`/data/local/tmp` → `C:/Program Files/Git/data/...`)
 - Logs utiles : `adb logcat -s SmartParser OrdoParser LlamaCpp LlamaCppAnalyzer`
 

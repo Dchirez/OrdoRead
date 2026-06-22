@@ -1,0 +1,31 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/captures
+local.properties
+
+# llama.cpp (cloné localement, pas commité)
+/llama.cpp/
+
+# Modèles LLM locaux (trop volumineux pour GitHub, >100 Mo)
+*.gguf
+
+# Artefacts de build Android / native (n'importe où)
+build/
+.cxx/
+.externalNativeBuild/
+
+# Config locale IDE / outils
+.idea/
+.claude/
+
+# Photos d'ordonnances de test (données personnelles — ne jamais publier)
+photo/
+
